@@ -1,0 +1,30 @@
+{
+  "engineVersion": "5.2.29",
+  "compilerVersion": "5.2.29",
+  "template": {},
+  "target": {
+    "current": "web"
+  },
+  "modules": [
+    {
+      "name": "egret"
+    },
+    {
+      "name": "eui"
+    },
+    {
+      "name": "assetsmanager"
+    },
+    {
+      "name": "tween"
+    },
+    {
+      "name": "particle",
+      "path": "./libs/particle"
+    },
+    {
+      "name": "egretmgobe",
+      "path": "./libs/egretmgobe"
+    }
+  ]
+}
