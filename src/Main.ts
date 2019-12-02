@@ -108,21 +108,21 @@ class Main extends eui.UILayer {
         "你还记得在大四你生日的前一个晚上吗？",
         "现在想起来，觉得挺庆幸的",
         "2018年你的生日，我没有出现",
-        "你说过喜欢去旅游",
+        "你说你喜欢去旅游",
         "你说最近的周末都过得很充实",
         "你说你很喜欢猫咪",
         "如果可以的话，我能承包你以后的生日吗？"
    ];
     private starTextTop: egret.TextField = new egret.TextField();
     private starTextBelowArray = [
-        "是2014年9月14日入学的第一天。或许那天只是我注意到你，你还不知道我是谁",
+        "是2014年9月14日入学在课室的第一天。或许那天只是我注意到你，你还不知道我是谁",
         "重要的是那天晚上我骑着单车把你从广大载回宿舍，我在你心中的分数大大提高",
         "所以让你吃上了4个生日蛋糕，要比上一年的三个蛋糕多一个",
         "最后在2016年12月4日送了你一双高帮鞋子来代替轮滑鞋",
         "我喉咙痛发烧了，你陪我在医院打点滴差不多到凌晨。还好第二天康复了跟你在中心湖吃了个小蛋糕",
         "大学四年关于你的生日，我都有份参与",
         "很抱歉，那时是我做得不够好",
-        "我的第一次搭飞机，第一次出国都是跟你在一起。接下来会带你去更多的地方",
+        "我第一次搭飞机，第一次出国都是跟你在一起的。接下来我会带你去更多的地方",
         "我们尝试做之前没做过的事情，相信不会被异地打败的",
         "现在我们有了多多儿子，我也会好好疼他的",
         "我会尽量给你惊喜，仪式感还是要有的"
@@ -437,13 +437,14 @@ class Main extends eui.UILayer {
         let textArr = [
             <Array<egret.ITextElement>>[{text: "我猜你还喜欢我", style: {}}],
             <Array<egret.ITextElement>>[{text: "的作品", style: {}}],
-            <Array<egret.ITextElement>>[{text: "生日快乐，鱼丸妹", style: {"size": 50, "strokeColor": 0x6699cc, "stroke": 2}}]
+            <Array<egret.ITextElement>>[{text: "生日快乐！林小蚊", style: {"size": 50, "strokeColor": 0x6699cc, "stroke": 2}}],
+            <Array<egret.ITextElement>>[{text: "支付宝吱口令红包输入(你在王者荣耀的名字)即可收获生日红包", style: {}}]
         ];
         textArr.unshift(<Array<egret.ITextElement>>[
             {text:`我猜,那么多颜色中，你对${this.answers[0]}情有独钟。在一年之中，${this.answers[1]}是你最需要陪伴的季节。如果有机会，我相信你一定很想去${this.answers[2]}看看。我是不是猜的很准?还有......`,style: {}}
         ]);
-        let waitTimeArr:Array<any> = [5000,4000,1000,1000];
-        let yArr:Array<any> = [0,250,350,450];
+        let waitTimeArr:Array<any> = [5000,4000,1000,1000,1000];
+        let yArr:Array<any> = [0,250,350,450,550];
         let count = -1;
         for (let i = 0 ; i < textArr.length; i++) {
             let textfield: egret.TextField = new egret.TextField();
