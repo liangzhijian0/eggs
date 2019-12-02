@@ -1,0 +1,138 @@
+{
+	"groups": [
+		{
+			"keys": "button_up_png,description_json,bg_jpg,Beautiful Life_mp3,button_down_png",
+			"name": "preload"
+		},
+		{
+			"keys": "ballParticle_json,ballParticle_png,cake_png,monkey_png,star_png,finger_png,cloud_png,bg10_jpg",
+			"name": "cake"
+		},
+		{
+			"keys": "material0_jpg,material1_jpg,material2_jpg,material3_jpg,material4_jpg,material5_jpg,material6_jpg,material7_jpg,material8_jpg,material9_jpg,material10_jpg",
+			"name": "star"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/Button/button_up.png",
+			"type": "image",
+			"name": "button_up_png"
+		},
+		{
+			"url": "config/description.json",
+			"type": "json",
+			"name": "description_json"
+		},
+		{
+			"url": "particle/ballParticle.json",
+			"type": "json",
+			"name": "ballParticle_json"
+		},
+		{
+			"url": "particle/ballParticle.png",
+			"type": "image",
+			"name": "ballParticle_png"
+		},
+		{
+			"url": "particle/cake.png",
+			"type": "image",
+			"name": "cake_png"
+		},
+		{
+			"url": "particle/monkey.png",
+			"type": "image",
+			"name": "monkey_png"
+		},
+		{
+			"url": "particle/bg.jpg",
+			"type": "image",
+			"name": "bg_jpg"
+		},
+		{
+			"url": "particle/star.png",
+			"type": "image",
+			"name": "star_png"
+		},
+		{
+			"url": "particle/bg10.jpg",
+			"type": "image",
+			"name": "bg10_jpg"
+		},
+		{
+			"url": "particle/finger.png",
+			"type": "image",
+			"name": "finger_png"
+		},
+		{
+			"url": "particle/cloud.png",
+			"type": "image",
+			"name": "cloud_png"
+		},
+		{
+			"url": "star/material7.jpg",
+			"type": "image",
+			"name": "material7_jpg"
+		},
+		{
+			"url": "star/material8.jpg",
+			"type": "image",
+			"name": "material8_jpg"
+		},
+		{
+			"url": "star/material9.jpg",
+			"type": "image",
+			"name": "material9_jpg"
+		},
+		{
+			"url": "star/material10.jpg",
+			"type": "image",
+			"name": "material10_jpg"
+		},
+		{
+			"url": "star/material0.jpg",
+			"type": "image",
+			"name": "material0_jpg"
+		},
+		{
+			"url": "star/material1.jpg",
+			"type": "image",
+			"name": "material1_jpg"
+		},
+		{
+			"url": "star/material2.jpg",
+			"type": "image",
+			"name": "material2_jpg"
+		},
+		{
+			"url": "star/material3.jpg",
+			"type": "image",
+			"name": "material3_jpg"
+		},
+		{
+			"url": "star/material4.jpg",
+			"type": "image",
+			"name": "material4_jpg"
+		},
+		{
+			"url": "star/material5.jpg",
+			"type": "image",
+			"name": "material5_jpg"
+		},
+		{
+			"url": "star/material6.jpg",
+			"type": "image",
+			"name": "material6_jpg"
+		},
+		{
+			"url": "particle/Beautiful Life.mp3",
+			"type": "sound",
+			"name": "Beautiful Life_mp3"
+		},
+		{
+			"name": "button_down_png",
+			"type": "image",
+			"url": "assets/Button/button_down.png"
+		}
+	]
+}
